@@ -4,7 +4,7 @@ public class Main {
         int fareForOneKmInRub = 10;
         int distanceInKm = 200;
 
-        TaxiService sumOfOrder = new TaxiService();
-        System.out.println(sumOfOrder.calculate(taxiBoardingAmountInRub, fareForOneKmInRub, distanceInKm));
+        TaxiService taxiService = new TaxiService();
+        System.out.println(taxiService.calculate(taxiBoardingAmountInRub, fareForOneKmInRub, distanceInKm));
     }
 }
